@@ -1,9 +1,7 @@
 # AD
-## 访问量
 ![ Visitor Count](https://profile-counter.glitch.me/JuneY520/count.svg) 
-
 ![Cuttlefish's GitHub stats](https://github-readme-stats.vercel.app/api?username=JuneY520&show_icons=true&count_private=true&theme=vue)
-本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目
+ - 本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目
 ------------------------------------------
  ## 免责声明
  -  此脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
