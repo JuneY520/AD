@@ -1,5 +1,5 @@
-^https:\/\/cdn-us\.imgs\.moe\/2023\/06\/13\/6487dd33af7c1\.png url script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/clicli.js
-hostname = cdn-us.imgs.moe
+^https:\/\/cdn\.clicli\.cc\/video\/20230612\/2_f89615a666cf5e03a23cbe2fd207c50c\/index\.m3u8 url script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/clicli.js
+hostname = cdn.clicli.cc
 
 // 假设 response 是你要修改的响应数据
 let response = {
