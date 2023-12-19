@@ -1,4 +1,5 @@
-
+https:\/\/www\.clicli\.cc\/posts url script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/clicli.js
+hostname = www.clicli.cc
 
 (function() {
     'use strict';
