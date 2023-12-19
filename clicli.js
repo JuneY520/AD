@@ -1,4 +1,4 @@
-^https:\/\/cdn-us\.imgs\.moe\/2023\/06\/13\/6487dd33af7c1\.png url
+^https:\/\/cdn-us\.imgs\.moe\/2023\/06\/13\/6487dd33af7c1\.png 
 script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/clicli.js
 hostname = cdn-us.imgs.moe
 
