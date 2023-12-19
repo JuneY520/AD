@@ -1,5 +1,4 @@
-^https:\/\/cdn-us\.imgs\.moe\/2023\/06\/13\/6487dd33af7c1\.png 
-script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/clicli.js
+^https:\/\/cdn-us\.imgs\.moe\/2023\/06\/13\/6487dd33af7c1\.png url script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/clicli.js
 hostname = cdn-us.imgs.moe
 
 // 假设 response 是你要修改的响应数据
