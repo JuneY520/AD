@@ -1,6 +1,6 @@
 [rewrite_local]
 # > 网易云解锁VIP
-^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
+#^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
 
 # 播放器皮肤
 ^https:\/\/interface3\.music\.163\.com\/eapi\/playermode\/ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
