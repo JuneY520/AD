@@ -1,3 +1,27 @@
+[rewrite_local]
+# > 网易云解锁VIP
+^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
+
+# 播放器皮肤
+^https:\/\/interface3\.music\.163\.com\/eapi\/playermode\/ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
+
+# 搜索页会员歌曲
+^https:\/\/interface3\.music\.163\.com\/eapi\/search\/complex\/page url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
+
+# 会员歌曲
+^https:\/\/interface3\.music\.163\.com\/eapi\/song\/ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
+
+# 会员歌曲列表
+^https?:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/|v6\/)?playlist\/ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
+
+# 音质切换
+^https?:\/\/interface3\.music\.163\.com\/eapi\/vipauth\/app\/auth\/ url script-request-header https://raw.githubusercontent.com/JuneY520/AD/main/wyy.js
+
+
+[mitm] 
+hostname = *.music.163.com
+
+
 */
 
 
