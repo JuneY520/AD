@@ -18,7 +18,7 @@
 
 
 [mitm] 
-hostname = *.music.163.com
+hostname = *.music.163.com,interface3.music.163.com
 
 
 */
