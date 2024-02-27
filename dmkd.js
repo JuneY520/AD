@@ -1,5 +1,5 @@
 [rewrite_local]
-^http://app\.95189371\.cn/ciyuancheng\.php/v6/advert$ url script-response-body url script-response-body https://github.com/JuneY520/AD/blob/main/dmkd.js
+^http://app\.95189371\.cn/ciyuancheng\.php/v6/advert$ url script-response-body https://github.com/JuneY520/AD/blob/main/dmkd.js
 
 var body = $response.body;
 
