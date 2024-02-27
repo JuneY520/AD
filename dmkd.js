@@ -9,3 +9,4 @@ body = body.replace(/"content"\s*:\s*"https:\/\/picgg\.95189371\.cn\/ads\/feijib
 body = body.replace(/"content"\s*:\s*"https:\/\/picgg\.95189371\.cn\/ads\/tggroup\.png"/g, '"content":""');
 
 $done({ body });
+hostname=picgg.95189371.cn
