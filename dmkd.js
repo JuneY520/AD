@@ -1,5 +1,5 @@
 [rewrite_local]
-^https://api\.yourdomain\.com/ads/list$ url script-response-body https://github.com/JuneY520/AD/blob/main/dmkd.js
+^http://app\.95189371\.cn/ciyuancheng\.php/v6/advert$ url script-response-body url script-response-body https://github.com/JuneY520/AD/blob/main/dmkd.js
 
 var body = $response.body;
 
@@ -8,4 +8,4 @@ body = body.replace(/"content"\s*:\s*"https:\/\/picgg\.95189371\.cn\/ads\/feijib
 body = body.replace(/"content"\s*:\s*"https:\/\/picgg\.95189371\.cn\/ads\/tggroup\.png"/g, '"content":""');
 
 $done({ body });
-hostname=api.yourdomain.com
+hostname=app.95189371.cn
