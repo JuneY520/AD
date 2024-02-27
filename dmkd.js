@@ -1,6 +1,4 @@
-[rewrite_local]
-^http://app\.95189371\.cn/ciyuancheng\.php/v6/advert$ url script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/dmkd.js
-
+^http://app\.95189371\.cn/ciyuancheng\.php/v6/advert\?position=7&pkid=com\.jylhgylp\.motto\.ciert&token=.*$ url script-response-body https://raw.githubusercontent.com/JuneY520/AD/main/dmkd.js
 var body = $response.body;
 var data = JSON.parse(body);
 
@@ -12,5 +10,4 @@ data.data.forEach(function(ad) {
 });
 
 $done({ body: JSON.stringify(data) });
-
 hostname=app.95189371.cn
