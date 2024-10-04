@@ -60,7 +60,8 @@ http-response https://nuc.api.mgtv.com/GetUserInfo script-path=https://raw.githu
 #StormSniffervip//*.x-storm.com
 http-response ^https?:\/\/api\.x-storm\.com\/app\/(user-profile|share-code\/get)\/$ script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/storm.js, requires-body=true, timeout=60, tag=StormSniffer VIP
 
-
+#阿里云盘vip
+http-response ^https?:\/\/.*\.aliyundrive\.com\/.* script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/XiaoMaoALiCloud.js, requires-body=true, timeout=10, tag=阿里云盘vip
 # =====================================
 [MITM]
-hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.comcom,api.github.com,mobile.api.mgtv.com, mobile-stream.api.mgtv.com, nuc.api.mgtv.com,*.x-storm.com
+hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.comcom,api.github.com,mobile.api.mgtv.com, mobile-stream.api.mgtv.com, nuc.api.mgtv.com,*.x-storm.com,*.aliyundrive.com
