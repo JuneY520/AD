@@ -45,8 +45,10 @@ DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
 # 脚本
 # =====================================
 [Script]
-# 搜狗输入法sec.sginput.qq.com
+# 搜狗输入法//sec.sginput.qq.com
 http-response ^https:\/\/sec\.sginput\.qq\.com\/q script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js, requires-body=true, timeout=60, tag=搜狗输入法候选词推广
+#GitHubvip//api.github.com
+http-response https://api.github.com/graphql script-path=https://raw.githubusercontent.com/JuneY520/X/main/GitHub.js, requires-body=true, timeout=60, tag=GitHubvip
 # =====================================
 [MITM]
-hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.com
+hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.comcom,api.github.com
