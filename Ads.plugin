@@ -2,9 +2,9 @@
 #!author= 牛奶泡芙
 #!desc =自用广告过滤器
 #tag=搬运
-#!homepage = https://raw.githubusercontent.com/JuneY520/Shunt/refs/heads/main/blockAds.plugin
+#!homepage = https://raw.githubusercontent.com/JuneY520/AD/refs/heads/main/Ads.plugin
 #!icon= https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/softlyx/Acg.png
-#!date=2024-10-4 23:00:00
+#!date=2024-10-4 12:40:00
 [Rule]
 #大师兄师兄影视分流修正
 DOMAIN,sdk.alibaba.com.ailbaba.me,DIRECT
