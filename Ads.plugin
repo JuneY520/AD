@@ -67,4 +67,4 @@ http-response ^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page
 
 # =====================================
 [MITM]
-hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.comcom,api.github.com,mobile.api.mgtv.com, mobile-stream.api.mgtv.com, nuc.api.mgtv.com,
+hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.comcom,api.github.com,mobile.api.mgtv.com, mobile-stream.api.mgtv.com, nuc.api.mgtv.com,api.coolapk.com
