@@ -44,6 +44,10 @@ DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
 ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ reject
 # 屏蔽热门搜索
 ^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
+# > 天翼云盘
+# hostname = api.cloud.189.cn
+# 感谢【All in 梭哈】分享
+^https?:\/\/api\.cloud\.189\.cn\/guns\/(img\/recommendedPosition|getOpenscreenBanners) url reject-dict
 # 脚本
 # =====================================
 [Script]
@@ -67,4 +71,4 @@ http-response ^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page
 
 # =====================================
 [MITM]
-hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.comcom,api.github.com,mobile.api.mgtv.com, mobile-stream.api.mgtv.com, nuc.api.mgtv.com,api.coolapk.com
+hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.comcom,api.github.com,mobile.api.mgtv.com, mobile-stream.api.mgtv.com, nuc.api.mgtv.com,api.coolapk.com,api.cloud.189.cn
