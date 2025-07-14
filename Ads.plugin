@@ -6,6 +6,7 @@
 #!icon= https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/softlyx/Acg.png
 #!date=2024-10-4 12:40:00
 [Rule]
+#是黑色金三角哈哈哈哈哈哈
 #大师兄师兄影视分流修正
 DOMAIN,sdk.alibaba.com.ailbaba.me,DIRECT
 DOMAIN,img.ffzypic.com,DIRECT
